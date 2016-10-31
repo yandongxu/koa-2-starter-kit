@@ -1,0 +1,25 @@
+{
+  "name": "koa-2-stater-kit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.9.0",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-html": "^1.5.5",
+    "eslint-plugin-import": "^2.0.1",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "dev": "nodemon --harmony_async_await app.js",
+    "start": "node --harmony_async_await app.js"
+  },
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "koa": "^2.0.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-helmet": "^2.0.0",
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^7.0.1"
+  }
+}
