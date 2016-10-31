@@ -1,7 +1,7 @@
 {
   "name": "koa-2-stater-kit",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "main": "app.js",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^3.9.0",
