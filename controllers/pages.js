@@ -1,9 +1,9 @@
 module.exports = {
-  home: async (ctx) => {
+  home: (ctx) => {
     ctx.body = 'HOME';
   },
 
-  about: async (ctx) => {
+  about: (ctx) => {
     ctx.body = 'ABOUT';
   }
 };

@@ -28,3 +28,5 @@ app.on('error', (err, ctx) => console.error('server error', err, ctx));
 
 // Server start
 app.listen(port, () => console.log(`Server running at: http://localhost:${port}`));
+
+module.exports = app;

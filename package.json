@@ -8,9 +8,13 @@
     "eslint-config-airbnb-base": "^9.0.0",
     "eslint-plugin-html": "^1.5.5",
     "eslint-plugin-import": "^2.0.1",
-    "nodemon": "^1.11.0"
+    "mocha": "^3.1.2",
+    "nodemon": "^1.11.0",
+    "should": "^11.1.1",
+    "supertest": "^2.0.1"
   },
   "scripts": {
+    "test": "mocha --harmony_async_await",
     "dev": "nodemon --harmony_async_await app.js",
     "start": "node --harmony_async_await app.js"
   },
